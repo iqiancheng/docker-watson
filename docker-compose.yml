@@ -1,0 +1,10 @@
+---
+version: '2'
+services:
+  watson:
+    build:
+      context: .
+    image: watson
+    # command: yarn start
+    ports:
+      - 3000:3000
